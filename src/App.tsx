@@ -91,10 +91,10 @@ const App: React.FC = () => {
               />
             </motion.div>
             <h1 className="text-5xl font-bold mb-4 text-neutral-600">
-              Biswarup Sen
+              Pavan Kushnure
             </h1>
             <p className="text-2xl text-neutral-600">
-              Backend | System Design | DevOps
+              Frontend | Backend | System Design | Devops
             </p>
           </motion.div>
 
@@ -209,7 +209,7 @@ const App: React.FC = () => {
               <SkillBadge skill="Node.js" />
               <SkillBadge skill="Express.js" />
               <SkillBadge skill="MongoDB" />
-              <SkillBadge skill="PostgreSQL" />
+              <SkillBadge skill="SQLServer" />
               <SkillBadge skill="AWS" />
               <SkillBadge skill="Docker" />
               <SkillBadge skill="Kubernetes" />
@@ -218,7 +218,6 @@ const App: React.FC = () => {
               <SkillBadge skill="Serverless" />
               <SkillBadge skill="Redis" />
               <SkillBadge skill="System Design" />
-              <SkillBadge skill="WebRTC" />
             </div>
           </Section>
         </div>
@@ -231,14 +230,14 @@ const App: React.FC = () => {
           <div className="flex justify-center space-x-8 mb-8">
             <motion.a
               whileHover={{ scale: 1.2, rotate: 5 }}
-              href="mailto:biswarupsen.work@gmail.com"
+              href="mailto:pavankumarkushnure@gmail.com"
               className="text-neutral-600 hover:text-neutral-400 transition-colors"
             >
               <Mail size={28} />
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.2, rotate: -5 }}
-              href="https://github.com/bsen/"
+              href="https://github.com/Scylla23"
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-600 hover:text-neutral-400 transition-colors cursor-pointer"
@@ -247,7 +246,7 @@ const App: React.FC = () => {
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.2, rotate: 5 }}
-              href="https://www.linkedin.com/in/biswarup-sen/"
+              href="https://www.linkedin.com/in/pavankumar-kushnure-97274b1a3/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-600 hover:text-neutral-400 transition-colors cursor-pointer"
@@ -256,7 +255,7 @@ const App: React.FC = () => {
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.2, rotate: -5 }}
-              href="https://x.com/biswasys"
+              href="https://x.com/Pavankumarkush5"
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-600 hover:text-neutral-400 transition-colors cursor-pointer"
@@ -265,12 +264,13 @@ const App: React.FC = () => {
             </motion.a>
           </div>
         </motion.div>
-        <div className="hidden  justify-center">
+        
+        <div className="flex justify-center align-center">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => {
-              window.open("/biswarupsen-resume.pdf");
+              window.open("/Pavankumar Kushnure 2023.pdf");
             }}
             className="flex  px-6 py-3 bg-neutral-100 text-black rounded-full shadow-lg items-center justify-center"
           >
@@ -281,7 +281,7 @@ const App: React.FC = () => {
       </div>
 
       <footer className="py-8 text-center text-neutral-400">
-        <p>© {new Date().getFullYear()} bsen.tech</p>
+        <p>© {new Date().getFullYear()} pkushnure.tech</p>
       </footer>
     </div>
   );
