@@ -109,10 +109,10 @@ const App: React.FC = () => {
             <div className="space-y-8">
               <motion.div whileHover={{ scale: 1.02 }}>
                 <h3 className="font-semibold text-xl text-neutral-600">
-                  Dukaan
+                  <a href="https://naya.love/studio">Naya</a>
                 </h3>
                 <p className="text-sm text-neutral-600 mb-4">
-                  Software Developer | Current Role since July 2024
+                  Software Developer | Current Role since October 2023
                 </p>
                 <p className="text-neutral-600">
                   I manage backend system integrations, ensuring seamless
@@ -280,7 +280,7 @@ const App: React.FC = () => {
         </div>
       </div>
 
-      <footer className="py-8 text-center text-neutral-400">
+      <footer className="pb-8 text-center text-neutral-400">
         <p>© {new Date().getFullYear()} pkushnure.tech</p>
       </footer>
     </div>
