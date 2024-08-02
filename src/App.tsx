@@ -86,7 +86,7 @@ const App: React.FC = () => {
             >
               <img
                 src="/me.gif"
-                alt="Biswarup Sen"
+                alt="Pavan Kushnure"
                 className="w-full h-full object-cover"
               />
             </motion.div>
