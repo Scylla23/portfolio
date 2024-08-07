@@ -100,8 +100,8 @@ const App: React.FC = () => {
 
           <Section title="About Me">
             <p className="leading-relaxed">
-              I'm a backend developer with expertise in DevOps, system design,
-              and the MERN stack. I am passionate about building tech.
+              I'm a full stack developer with expertise in the MERN stack, DevOps, .Net core, Java and system design.
+              I am passionate about building tech.
             </p>
           </Section>
 
@@ -121,29 +121,14 @@ const App: React.FC = () => {
               </motion.div>
               <motion.div whileHover={{ scale: 1.02 }}>
                 <h3 className="font-semibold text-xl text-neutral-600">
-                  Webkites Websolutions
+                  Kratin LLC
                 </h3>
                 <p className="text-sm text-neutral-600 mb-4">
-                  Fullstack Developer | June 2024 - July 2024
+                  .Net Core Developer | Jan 2023 - Aug 2023
                 </p>
                 <p className="text-neutral-600">
-                  Developed the frontend portal for Yogasana Bharat and the
-                  World Yogasana Federation, handling backend logic for
-                  admin-side user registration and data management, and utilized
-                  AWS for cloud services.
-                </p>
-              </motion.div>
-              <motion.div whileHover={{ scale: 1.02 }}>
-                <h3 className="font-semibold text-xl text-neutral-600">
-                  Algabay AI
-                </h3>
-                <p className="text-sm text-neutral-600 mb-4">
-                  Founder & Tech Lead | April 2023 - April 2024
-                </p>
-                <p className="text-neutral-600">
-                  Algabay is a financial investment analysis platform that
-                  empowers people to understand and navigate market trends with
-                  confidence.
+                  Developing and maintaining backend of a web application using ASP .NET Core, C#, and SQL Server, crafting RESTful APIs to align with client requirements.
+                  Designed and launched the Task Management Service, featuring task tracking, deadline management, real-time comments, and file attachment capabilities, supporting 250,000 tasks, 3,000 users, and 100GB of files.
                 </p>
               </motion.div>
             </div>
@@ -153,23 +138,13 @@ const App: React.FC = () => {
             <div className="space-y-8">
               <motion.div whileHover={{ scale: 1.02 }}>
                 <h3 className="font-semibold text-xl text-neutral-600">
-                  Kribble{" "}
-                  <span className="text-neutral-4\600 font-light">
-                    200+ users
-                  </span>
+                  ShoppyEasy{" "}
                 </h3>
                 <p className="mb-4 text-neutral-600">
-                  A social platform for college students to share and stream
-                  video and images. The social platform has a monolithic backend
-                  that originally used Hono.js and Cloudflare but later switched
-                  to Express.js and AWS for better cost efficiency. Media files
-                  are stored in S3 for scalable storage, while CloudFront helps
-                  deliver these files quickly. Switching to Express.js and AWS
-                  improved performance and reduced costs by taking advantage of
-                  AWS's powerful infrastructure.
+                  Next13 ecommerce web app with admin dashboard which serves as a centralized Content Management System for categories, sizes, colors, and products. Implemented Clerk Authentication and integrated Stripe for secure user access and seamless payment processing.
                 </p>
                 <a
-                  onClick={() => window.open("https://www.kribble.net")}
+                  onClick={() => window.open("https://shoppyeasy.netlify.app/")}
                   className="text-blue-600 cursor-pointer"
                 >
                   View Project →
@@ -177,28 +152,31 @@ const App: React.FC = () => {
               </motion.div>
               <motion.div whileHover={{ scale: 1.02 }}>
                 <h3 className="font-semibold text-xl text-neutral-600">
-                  Vipanie
+                  SnappyChat
                 </h3>
                 <p className="mb-4 text-neutral-600">
-                  Vipanie is a platform that enables any business to
-                  effortlessly launch their online store. Built with React,
-                  Node.js, Postgres, and S3 with CloudFront, businesses can add
-                  their products, and Vipanie generates a webstore for them,
-                  allowing customers to place orders. It also includes a
-                  dashboard to manage orders efficiently.
+                  Web application that enables users to chat with different users and receive realtime notifications when they receive the message.Achieved secure user authentication and authorization with JSON Web Tokens (JWT).Used Socket.io for realtime notifications.
                 </p>
+                <a
+                  onClick={() => window.open("https://snappychatt.netlify.app/login")}
+                  className="text-blue-600 cursor-pointer"
+                >
+                  View Project →
+                </a>
               </motion.div>
               <motion.div whileHover={{ scale: 1.02 }}>
                 <h3 className="font-semibold text-xl text-neutral-600">
-                  Centralized Exchange Server
+                  DrawTogetherHub
                 </h3>
                 <p className="mb-4 text-neutral-600">
-                  The centralized exchange server is built using Node.js for
-                  efficient backend handling, PostgreSQL for reliable
-                  transaction management, and Redis for fast data retrieval.
-                  This setup ensures high availability, low latency, and secure
-                  transactions.
+                  A dynamic real-time whiteboard application which facilitated seamless real-time collaboration by implementing Socket.io and Node.js events, enabling multiple users to work simultaneously and witness instant updates and an intuitive Undo-Redo feature, utilizing an array-based stack to manage positions,colors, and pen/eraser widths.
                 </p>
+                <a
+                  onClick={() => window.open("https://drawtogetherhub.netlify.app/")}
+                  className="text-blue-600 cursor-pointer"
+                >
+                  View Project →
+                </a>
               </motion.div>
             </div>
           </Section>
@@ -264,7 +242,7 @@ const App: React.FC = () => {
             </motion.a>
           </div>
         </motion.div>
-        
+
         <div className="flex justify-center align-center">
           <motion.button
             whileHover={{ scale: 1.05 }}
